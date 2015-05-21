@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eh_che_couch.ProjectWork.Web", "Eh_che_couch.ProjectWork.Web\Eh_che_couch.ProjectWork.Web.csproj", "{6CA725B9-35D9-4F2D-B1BE-45C1579857DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eh_che_couch.ProjectWork.DbConnection", "Eh_che_couch.ProjectWork.DbConnection\Eh_che_couch.ProjectWork.DbConnection.csproj", "{AE3CCC0C-D8D8-4ED6-A530-7F0CB0DEB521}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6CA725B9-35D9-4F2D-B1BE-45C1579857DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CA725B9-35D9-4F2D-B1BE-45C1579857DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CA725B9-35D9-4F2D-B1BE-45C1579857DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CA725B9-35D9-4F2D-B1BE-45C1579857DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE3CCC0C-D8D8-4ED6-A530-7F0CB0DEB521}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE3CCC0C-D8D8-4ED6-A530-7F0CB0DEB521}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE3CCC0C-D8D8-4ED6-A530-7F0CB0DEB521}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE3CCC0C-D8D8-4ED6-A530-7F0CB0DEB521}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

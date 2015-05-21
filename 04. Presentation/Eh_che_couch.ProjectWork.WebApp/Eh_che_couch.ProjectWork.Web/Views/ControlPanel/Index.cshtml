@@ -1,0 +1,73 @@
+﻿<div class="panel panel-primary" style="width:100%">
+    <div class="panel-heading">
+        <span style="font-size: 30px; font-style:oblique">Control Panel</span>
+    </div>
+
+    <div class="row">
+        <div class="col-xs-12">
+
+            <button type="button" style="margin:3px; width:32.8%" class="btn btn-success col-lg-3 col-xs-3" onclick="showStateFilterTable()"><span style="font-size:larger;">State filter</span></button>
+            <button type="button" style="margin: 3px; width: 32.8%" class=" btn btn-success col-lg-3 col-xs-3" onclick="showLanguagesFilterTable()"><span style="font-size:larger;">Languages filter</span></button>
+            <button type="button" style="margin: 3px; width: 32.8%" class="btn btn-success col-lg-3 col-xs-3" onclick=""><span style="font-size:larger;">Manage Database</span></button>
+
+        </div>
+    </div>
+
+    <table class="table table-hover table-responsive table-condensed">
+        <thead>
+            <tr>
+                <th>
+                    <h3 style="font-size:x-large"><span style="font-weight:bolder">Name</span></h3>
+                </th>
+                <th colspan="2">
+                    <h3 style="font-size:x-large"><span style="font-weight:bolder">Filter</span></h3>
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="col-lg-2">
+                    <p style="margin-top:4px;">Italy</p>
+                </td>
+                <td class="col-lg-3">
+                    <p style="margin-top:4px;">Italy, Italia, It, Italien</p>
+                </td>
+                <td class="col-lg-2">
+                    <button type="button" class="btn btn-warning col-lg-3"><span style="margin-right: 5px" class="glyphicon glyphicon-pencil"></span>Edit</button>
+
+                    <button type="button" class="btn btn-danger col-lg-3 col-lg-offset-1"><span style="margin-right: 5px" class="glyphicon glyphicon-trash"></span>Delete</button>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-lg-2">
+                    <p style="margin-top:4px;">Germany</p>
+                </td>
+                <td class="col-lg-3">
+                    <p style="margin-top:4px;">Germany, Germania, De, Deutschland</p>
+                </td>
+                <td class="col-lg-2">
+                    <button type="button" class="btn btn-warning col-lg-3"><span style="margin-right: 5px" class="glyphicon glyphicon-pencil"></span>Edit</button>
+
+                    <button type="button" class="btn btn-danger col-lg-3 col-lg-offset-1"><span style="margin-right: 5px" class="glyphicon glyphicon-trash"></span>Delete</button>
+                </td>
+            </tr>
+            <tr>
+                <td class="text-center" colspan="3">
+                    <button type="button" class="btn btn-info"><span style="margin-right: 5px" class="glyphicon glyphicon-plus"></span></button>
+                </td>
+            </tr>
+        </tbody>      
+    </table>
+</div>
+
+@section scripts {
+    <script>
+        function showStateFilterTable() {
+            alert("Filtro stati");
+        }
+
+        function showLanguagesFilterTable() {
+            alert("Filtro linguaggi");
+        }
+    </script>
+}

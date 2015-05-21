@@ -1,0 +1,21 @@
+python 
+scala 
+C++
+javascript 
+java 
+C# 
+haskell 
+pascal 
+cobol 
+assembly 
+assembler 
+"visual basic" 
+php 
+sql 
+css 
+ruby 
+lua 
+mathematica
+fortran
+scheme
+perl
